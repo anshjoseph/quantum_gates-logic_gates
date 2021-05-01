@@ -1,3 +1,10 @@
+"""
+Author: R Ansh Joseph
+
+Des:
+    This is a 2bit adder
+
+"""
 def xor(curcuit,applied_reg,process_reg,data_reg):
     if len(applied_reg) == 2 and len(process_reg) == 3:
         curcuit.x(applied_reg[0])
